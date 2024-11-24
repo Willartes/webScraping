@@ -1,0 +1,13 @@
+{
+    "chrome_options": [
+      "--headless",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--window-size=1920,1080"
+    ],
+    "timeout": 30,
+    "retry_attempts": 3,
+    "output_dir": "exports",
+    "report_dir": "reports"
+  }
